@@ -1,12 +1,13 @@
 // Files to cache
-const cacheName = 'mi-cache';
+const cacheName = 'test-v1';
 const appShellFiles = [
-  '/', // Raíz
+  '/',
   '/index.html',
-  '/styles/style.css',
   '/scripts/main.js',
-  '/scripts/service-worker.js',
-  '/data/f1-drivers.json',
+  '/styles/style.css',
+  '/icons/icon-128.png',
+  '/icons/icon-256.png',
+  '/icons/icon-512.png',
 ];
 const driversImages = [];
 for (let i = 1; i <= 10; i++) {

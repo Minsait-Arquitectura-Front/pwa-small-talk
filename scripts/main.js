@@ -1,15 +1,13 @@
 // Registro del Service Worker para habilitar la funcionalidad de PWA
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker
-      .register('/scripts/service-worker.js')
-      .then((registration) => {
-        console.log('Service Worker registrado con éxito:', registration);
-      })
-      .catch((error) => {
-        console.log('Error al registrar el Service Worker:', error);
-      });
-  });
+  navigator.serviceWorker
+    .register('/scripts/service-worker.js')
+    .then((registration) => {
+      console.log('Service Worker registrado con éxito:', registration);
+    })
+    .catch((error) => {
+      console.log('Error al registrar el Service Worker:', error);
+    });
 }
 
 // Función para pintar los datos de los pilotos en la página
