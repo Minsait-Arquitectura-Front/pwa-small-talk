@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Verstappen",
+    "surname": "Max",
+    "nationality": "Netherlands",
+    "team": "Red Bull",
+    "id": 1,
+    "image": "./data/images/1.jpeg"
+  },
+  {
+    "name": "Hamilton",
+    "surname": "Lewis",
+    "nationality": "United Kingdom",
+    "team": "Mercedes",
+    "id": 2,
+    "image": "./data/images/2.jpeg"
+  },
+  {
+    "name": "Bottas",
+    "surname": "Valtteri",
+    "nationality": "Finland",
+    "team": "Mercedes",
+    "id": 3,
+    "image": "./data/images/3.jpeg"
+  },
+  {
+    "name": "Perez",
+    "surname": "Sergio",
+    "nationality": "Mexico",
+    "team": "Red Bull",
+    "id": 4,
+    "image": "./data/images/4.jpeg"
+  },
+  {
+    "name": "Norris",
+    "surname": "Lando",
+    "nationality": "United Kingdom",
+    "team": "McLaren",
+    "id": 5,
+    "image": "./data/images/5.jpeg"
+  },
+  {
+    "name": "Leclerc",
+    "surname": "Charles",
+    "nationality": "Monaco",
+    "team": "Ferrari",
+    "id": 6,
+    "image": "./data/images/6.jpeg"
+  },
+  {
+    "name": "Sainz",
+    "surname": "Carlos",
+    "nationality": "Spain",
+    "team": "Ferrari",
+    "id": 7,
+    "image": "./data/images/7.jpeg"
+  },
+  {
+    "name": "Ricciardo",
+    "surname": "Daniel",
+    "nationality": "Australia",
+    "team": "McLaren",
+    "id": 8,
+    "image": "./data/images/8.jpeg"
+  },
+  {
+    "name": "Alonso",
+    "surname": "Fernando",
+    "nationality": "Spain",
+    "team": "Alpine",
+    "id": 9,
+    "image": "./data/images/9.jpeg"
+  },
+  {
+    "name": "Ocon",
+    "surname": "Esteban",
+    "nationality": "France",
+    "team": "Alpine",
+    "id": 10,
+    "image": "./data/images/10.jpeg"
+  }
+]
