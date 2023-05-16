@@ -5,6 +5,7 @@ const appShellFiles = [
   '/index.html',
   '/styles/style.css',
   '/scripts/main.js',
+  '/scripts/service-worker.js',
   '/data/f1-drivers.json',
 ];
 const driversImages = [];

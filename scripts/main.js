@@ -2,7 +2,7 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
-      .register('./scripts/service-worker.js')
+      .register('/scripts/service-worker.js')
       .then((registration) => {
         console.log('Service Worker registrado con éxito:', registration);
       })
@@ -43,4 +43,4 @@ function handleFetchError(error) {
 }
 
 // Recuperar el JSON y llamar a las funciones correspondientes
-fetch('./data/f1-drivers.json').then(handleFetchResult).then(mostrarPilotos).catch(handleFetchError);
+fetch('/data/f1-drivers.json').then(handleFetchResult).then(mostrarPilotos).catch(handleFetchError);
