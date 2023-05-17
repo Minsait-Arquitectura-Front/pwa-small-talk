@@ -3,11 +3,12 @@ const cacheName = 'test-v1';
 const appShellFiles = [
   '/',
   '/index.html',
-  '/scripts/main.js',
+  '/main.js',
   '/styles/style.css',
   '/icons/icon-128.png',
   '/icons/icon-256.png',
   '/icons/icon-512.png',
+  '/data/f1-drivers.json',
 ];
 const driversImages = [];
 for (let i = 1; i <= 10; i++) {

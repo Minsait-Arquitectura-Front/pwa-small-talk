@@ -1,6 +1,6 @@
 // Registro del Service Worker para habilitar la funcionalidad de PWA
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/scripts/service-worker.js');
+  navigator.serviceWorker.register('/service-worker.js');
 }
 
 // Función para pintar los datos de los pilotos en la página
